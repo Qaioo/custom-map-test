@@ -2,7 +2,7 @@
 // generowanie mapy wraz z ustawieniem pozycji startowej (setView([koordynaty]), zoom startowy - im większa liczba tym większy zoom)
 var mymap = L.map('mapid').setView([50.474814, 17.967072], 17);
 
-//warstwa api mapy, ustawienie maksymalnego zooma, oznaczenie autora w attribution, id: .streets / .satellite (zdjecia satelitarne)
+//ustawienie maksymalnego zooma, oznaczenie autora w attribution, id: .streets / .satellite (zdjecia satelitarne)
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 18,
 		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
