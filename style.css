@@ -2,3 +2,9 @@
     width: 960px; 
     height: 500px;
 }
+
+h1 {
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
